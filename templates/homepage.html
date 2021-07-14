@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mikayla's Homepage</title>
+</head>
+<body style="background-color:purple">
+<h1>Hi {{name}}, how are you finding flask?</h1>
+<img src="/static/4p4E-8WP.jpg" alt="">
+
+{% if name == 'Mikayla' %}
+<h1>Hello {{name}}</h1>
+Welcome to the admin page!
+{% else %}
+<h1>Hello World!</h1>
+Welcome to the user page!
+{% endif %}
+</body>
+</html>
